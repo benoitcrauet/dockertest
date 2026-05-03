@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     nom = os.getenv("NOM", "Inconnu")
-    return f"Bonjour {nom}.\n\nDate et heure actuelle : {datetime.now().strftime('%H:%M:%S')}"
+    return f"Bonjour {nom} c'est la V2 !\n\nDate et heure actuelle : {datetime.now().strftime('%H:%M:%S')}"
 
 @app.route("/ascii")
 def generate_figlet():
