@@ -25,6 +25,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+lib64
 
 # PyInstaller
 #   Usually these files are written by a python script from a template
@@ -219,4 +220,4 @@ __marimo__/
 
 # VEnv python
 venv/
-
+pyvenv.cfg
